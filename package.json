@@ -1,0 +1,57 @@
+{
+  "name": "react-content-placeholder",
+  "version": "0.0.17",
+  "description": "Component for easy creation of child loadings based on placeholders (for example, Facebook card loading)",
+  "scripts": {
+    "rollup": "rollup -c",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Guid21/react-content-placeholder.git"
+  },
+  "keywords": [
+    "react",
+    "skeleton",
+    "placeholder",
+    "loader",
+    "loading",
+    "content"
+  ],
+  "author": "Timur Zakirov <uryuk.uz@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guid21/react-content-placeholder/issues"
+  },
+  "homepage": "https://github.com/Guid21/react-content-placeholder",
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@rollup/plugin-commonjs": "21.0.1",
+    "@rollup/plugin-node-resolve": "^13.3.0",
+    "@rollup/plugin-typescript": "^8.3.4",
+    "@storybook/addon-actions": "^6.5.10",
+    "@storybook/addon-essentials": "^6.5.10",
+    "@storybook/addon-interactions": "^6.5.10",
+    "@storybook/addon-links": "^6.5.10",
+    "@storybook/builder-webpack5": "^6.5.10",
+    "@storybook/manager-webpack5": "^6.5.10",
+    "@storybook/react": "^6.5.10",
+    "@storybook/testing-library": "^0.0.13",
+    "@types/react": "^18.0.15",
+    "babel-loader": "^8.2.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "2.60.0",
+    "rollup-plugin-dts": "^4.2.2",
+    "tslib": "^2.4.0",
+    "typescript": "^4.7.4"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "dependencies": {}
+}
